@@ -248,11 +248,22 @@
     .place-grid{grid-template-columns:1fr}
   }
 </style>
+  .brand-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 0;
+  flex-shrink: 0;
+}
 </head>
+  <link rel="icon" type="image/png" href="logo.png">
 <body>
 
 <nav id="navbar">
-  <a class="brand" href="#top"><span class="ring">VL</span> Villas da Laje</a>
+  <a class="brand" href="#top">
+  <img src="logo.png" alt="Logo Villas da Laje" class="brand-logo">
+  <span>Villas da Laje</span>
+</a>
   <div class="nav-links" id="navLinks">
     <a href="#anfitrioes">Anfitriões</a>
     <a href="#casa">A Casa</a>
